@@ -1,0 +1,53 @@
+@import "style.css";
+@import "friends.css";
+
+.dots-icon > div {
+  background-color: #222;
+}
+
+/* profile */
+.main__more-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 22px;
+  background-color: #fff2bb;
+  margin-right: 10px;
+}
+.main__profile-column:last-child {
+  display: flex;
+}
+.main__my-info {
+  border: 1px solid #f1f1f1;
+  padding: 2px 15px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+.main__my-emoji {
+  border: 1px solid #f1f1f1;
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+/* services */
+.main__services {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 30px;
+}
+.main__services > div {
+  width: 25%;
+  margin-bottom: 20px;
+}
+.icon {
+  display: block;
+  font-size: 2rem;
+  color: #444;
+  line-height: 1.1;
+}
+.descr {
+  display: block;
+  font-size: 0.85rem;
+  color: #333;
+}

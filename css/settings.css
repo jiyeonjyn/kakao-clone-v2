@@ -1,0 +1,79 @@
+@import "style.css";
+
+/* header */
+.main__header {
+  position: fixed;
+  top: 25.6px;
+  left: 0;
+  width: 100%;
+  padding: 3px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  background-color: white;
+}
+.main__header-column > a {
+  margin-right: 10px;
+}
+
+/* settings-list */
+[class$="item"] {
+  padding: 7px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+[class$="item"]:not(:last-child) {
+  border-bottom: 0.5px solid #fcfcfc;
+}
+.icon {
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+.title {
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.main__settings-lists1 {
+  border-bottom: 1px solid #f2f2f3;
+  padding-bottom: 15px;
+}
+.main__settings-lists2 {
+  padding-top: 10px;
+}
+
+.settings-lists1-item:nth-of-type(2)::after {
+  content: "N";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #e76546;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  font-size: 0.7rem;
+}
+.settings-lists1-item:nth-of-type(3)::after {
+  content: "Latest Version";
+  width: 100%;
+  margin-left: 45px;
+  font-size: 0.9rem;
+  color: #999;
+  line-height: 1;
+}
+.settings-lists2-item:nth-last-of-type(2)::after {
+  content: "Default Theme";
+  width: 100%;
+  margin-left: 45px;
+  font-size: 0.9rem;
+  color: #999;
+  line-height: 1;
+}

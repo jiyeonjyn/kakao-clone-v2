@@ -1,0 +1,112 @@
+@import "style.css";
+
+/* header */
+.main__header {
+  position: fixed;
+  top: 25.6px;
+  left: 0;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  background-color: white;
+}
+.main__header-column:last-child {
+  font-size: 1.2rem;
+}
+.main__header-column > * {
+  margin-left: 10px;
+}
+
+/* me */
+.main__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 15px;
+}
+.main > .main__profile {
+  border-bottom: 1px solid #f2f2f3;
+}
+.main__my-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 23px;
+  background-color: #fff2bb;
+  margin-right: 10px;
+}
+.main__profile-column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main__text {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__my-name {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.main__my-descr {
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.4;
+}
+.main__music {
+  padding: 0 7px;
+  border: 2px solid rgb(108, 231, 108);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  display: flex;
+}
+.main__music > span:first-child {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  color: #777;
+}
+.main__music i {
+  color: rgb(108, 231, 108);
+  font-size: 0.6rem;
+  margin-left: 5px;
+}
+
+/* friends */
+.main__friends-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+  font-size: 0.9rem;
+  padding: 5px 0;
+}
+.main__friends-header-column > span {
+  margin-left: 3px;
+}
+.main__friends-list > .main__profile {
+  padding: 8px 0;
+}
+.main__friend-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 18px;
+  background-color: #fff2bb;
+  margin-right: 10px;
+}
+.main__friend-name {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+.main__friend-descr {
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.4;
+}
