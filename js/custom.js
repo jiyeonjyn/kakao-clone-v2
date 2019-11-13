@@ -23,7 +23,7 @@ $(document).ready(function() {
         var html = `
         <div class="chatting__sent-message">
             <div class="chatting__message">${message}</div>
-            <span class="time">11:07 AM</span>
+            <span class="time">01:53 PM</span>
         </div>
         `;
         
