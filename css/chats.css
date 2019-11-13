@@ -2,6 +2,16 @@
 @import "friends.css";
 
 /* chat-list */
+.main {
+  padding-right: 0;
+  padding-left: 0;
+}
+.main__profile {
+  padding: 10px 15px;
+}
+.main__chats-list > a:hover > .main__profile {
+  background-color: #efefef;
+}
 .main__chat-img {
   width: 50px;
   height: 50px;
