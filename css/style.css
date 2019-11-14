@@ -49,7 +49,7 @@ img {
 }
 .header__battery {
   display: inline-block;
-  transform: rotate(-90deg) translateY(-3px) scaleY(1.2) scaleX(0.9);
+  transform: rotate(-90deg) translate(1px, -2.5px) scaleY(1.2) scaleX(0.9);
 }
 .fa-volume-mute {
   margin-right: 3px;
