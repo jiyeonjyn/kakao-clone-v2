@@ -60,6 +60,7 @@
   position: absolute;
   box-sizing: content-box;
 }
+
 .with-many .main__chat-img {
   width: 24.5px;
   height: 24.5px;
