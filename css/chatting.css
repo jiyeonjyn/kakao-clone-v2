@@ -124,10 +124,10 @@
   line-height: 1;
 }
 .chatting__incoming-message .time {
-  left: 105%;
+  right: -48px;
 }
 .chatting__sent-message .time {
-  right: 105%;
+  left: -48px;
 }
 
 /* input box */
