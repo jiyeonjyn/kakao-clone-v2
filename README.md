@@ -2,4 +2,4 @@
 
  kakao-ui-clone
 
-<https://jiyeonjyn.github.io/kakao-clone-v2/>
+<https://jiyeonjyn.github.io/kakao-ui-clone/>
